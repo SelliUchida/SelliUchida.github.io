@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carta para você 💌</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="background-coracoes"></div>
+
+  <!-- Decoração lateral -->
+  <div class="decoracao-esquerda"><img src="img/selliGata.png" class="decor-img" /></div>
+  <div class="decoracao-direita"><img src="img/escadrolante.png" class="decor-img" /></div>
+  <div class="decoracao-lado1"><img src="img/nozes.png" class="decor-img" /></div>
+  <div class="decoracao-lado6"><img src="img/gatinhas.jpg" class="decor-img" /></div>
+  <div class="decoracao-lado7"><img src="img/yuki.jpg" class="decor-img" /></div>
+  <div class="decoracao-lado2"><img src="img/dedomedio.png" class="decor-img" /></div>
+  <div class="decoracao-lado3"><img src="img/cavalo.png" class="decor-img" /></div>
+  <div class="decoracao-lado4"><img src="img/unicaCoisa.png" class="decor-img" /></div>
+  <div class="decoracao-lado5"><img src="img/nozesPhotos.jpg" class="decor-img" /></div>
+  <img src="img/SELII.jpg" class="decoracao-bottom-left decor-img" />
+  <img src="img/selliPast.png" class="decoracao-bottom-right decor-img" />
+
+
+
+  <div class="container" id="cartaContainer">
+    <h1 class="titulo">Feliz Dia dos Namorados para minha dama</h1> 
+
+    <div class="container-img">
+      <img src="img/img1.jpg" class="img-normal" />
+      <img src="img/gatin.png" class="img-hover" />
+    </div>
+
+    <p class="subtitulo">Uma pequena surpresa para você...</p>
+
+    <div class="carta" id="carta">
+      <div class="carta-topo"></div>
+
+      <div class="conteudo-mensagem">
+        <div class="mensagem">
+          <p>Querida <b>Luísa Selli</b>,</p>
+          <p>Por mais que ainda não estejamos namorando, eu gostaria de dedicar este dia a ti — e somente a ti — pro resto da minha vida, se for possível 😁🌹</p>
+          <p>Desde o momento em que te conheci minha vida mudou completamente. Antes, eu queria evitar qualquer relacionamento, mas quando comecei a conversar com você... foi facilmente a melhor decisão da minha vida.</p>
+          <p>Como eu não poderia me apaixonar por uma pessoa incrível, linda, dedicada e esforçada igual você?</p>
+          <p>Eu não ligo para a distância, ou o custo para que essa relação dê certo — <b>eu vou fazer ela dar certo.</b></p>
+          <p>Por você, estou disposto a qualquer coisa. Saiba que sempre estarei aqui para te apoiar e mostrar o quanto você é perfeita.</p>
+          <p>Em um mundo de escuridão, você é a Lua da minha vida. Eu te amo muito ❤️</p>
+          <p class="assinatura">Lucas Uchida.</p>
+        </div>
+      </div>
+
+      <div class="carta-base">
+        <i class="bx bxs-heart heart-icon"></i>
+      </div>
+    </div>
+  </div>
+  <div class="espacamento">espacamento</div>
+  <!-- PLAYER ESTILO SPOTIFY -->
+  <footer class="footer-player">
+    <img src="img/leFestin.jpeg" alt="Capa" class="cover-img">
+    <div class="track-info">
+      <strong>Le Festin</strong><br>
+      <small>Camille, Michael Giacchino</small>
+    </div>
+    <div class="controls">
+      <button id="backBtn"><i class='bx bx-skip-previous'></i></button>
+      <button id="playPauseBtn"><i class='bx bx-play'></i></button>
+      <button id="forwardBtn"><i class='bx bx-skip-next'></i></button>
+    </div>
+    <div class="progress-container">
+      <span id="currentTime">0:00</span>
+      <input type="range" id="progressBar" value="0" max="100">
+      <span id="duration">0:00</span>
+    </div>
+    <img class="volume-icon" src="img/volume-high-solid.svg">
+    <input type="range" id="volumeSlider" min="0" max="1" step="0.01">
+    <audio id="audioPlayer" src="audio/Camille, Michael Giacchino - Le Festin (From ＂Ratatouille＂).mp3"></audio>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
