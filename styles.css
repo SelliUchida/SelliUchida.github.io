@@ -484,11 +484,14 @@ body {
   }
 
   .img-normal:focus {
-    display: flex;
+    position: absolute;
   }
 
   .img-hover {
-    display: none;
+    position: relative;
+    top: -280px;
+    width: 30%;
+    height: 50%;
   }
 
   .emoji {
@@ -498,6 +501,7 @@ body {
   }
 
   .carta {
+    position: relative;
     width: 90vw;
     height: 630px;
     margin: 30px auto;
